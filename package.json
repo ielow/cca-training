@@ -31,6 +31,10 @@
     },
     "npm": {
       "publish": false
+    },
+    "hooks": {
+      "before:init": ["npm ci"],
+      "after:release": ["echo Successfully released!"]
     }
   }
 }

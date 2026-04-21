@@ -1,0 +1,1 @@
+# Training for Claude Code architecture
