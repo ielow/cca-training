@@ -1,18 +1,17 @@
 {
   "name": "cca-training",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js + Express app with Claude API integration",
   "type": "module",
   "main": "src/index.ts",
   "engines": {
     "node": "20.20.2",
-    "npm":"10.8.2"
+    "npm": "10.8.2"
   },
   "scripts": {
     "start": "node --env-file=.env --experimental-strip-types src/index.ts",
     "dev": "node --env-file=.env --watch --experimental-strip-types src/index.ts",
     "release": "release-it "
-
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",
