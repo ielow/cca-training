@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Recovery\n\nHere is a one-day meal plan for an athlete aiming to support marathon training recovery with high energy availability for endurance performance:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (140g), Fat (85g), Carbs (420g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with banana (150g), honey (20g), and whole milk (240g). Side of whole wheat toast (50g) with almond butter (20g).\n    * Protein: 18g, Fat: 12g, Carbs: 95g\n\n* **Mid-Morning Snack (10:00 AM):** Greek yogurt (200g) with granola (40g) and mixed berries (100g).\n    * Protein: 18g, Fat: 8g, Carbs: 45g\n\n* **Lunch (1:00 PM):** Grilled chicken breast (150g) with brown rice (150g cooked) and roasted sweet potato (200g). Mixed green salad (150g) with olive oil dressing (15g).\n    * Protein: 45g, Fat: 12g, Carbs: 85g\n\n* **Pre-Workout Snack (3:30 PM):** Rice cakes (50g) with honey (20g) and banana (120g).\n    * Protein: 3g, Fat: 1g, Carbs: 65g\n\n* **Dinner (7:00 PM):** Baked salmon fillet (160g) with whole wheat pasta (120g cooked) and marinara sauce (100g). Steamed broccoli (200g) with olive oil (10g).\n    * Protein: 40g, Fat: 18g, Carbs: 85g\n\n* **Evening Snack (9:00 PM):** Cottage cheese (150g) with pineapple chunks (100g).\n    * Protein: 18g, Fat: 4g, Carbs: 20g\n\nThis meal plan prioritizes high-quality carbohydrates for sustained energy, adequate protein for muscle recovery, and nutrient-dense foods to support the demands of marathon training and recovery.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "182 cm",
+        "weight": "73 kg",
+        "goal": "Marathon training recovery with high energy availability for endurance performance",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers all 3 meals plus snacks for a full day",
+        "Total daily calories align with endurance athlete needs (approximately 3000-3500 kcal)",
+        "Macronutrient distribution supports endurance training (60% carbs, 20% protein, 20% fat)",
+        "Meals are practical, compact descriptions suitable for a 1-day reference"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a professional endurance athlete (marathon runner) with high caloric needs and specific macronutrient ratios for training recovery"
+    },
+    "score": 9,
+    "reasoning": "The solution fully satisfies all mandatory requirements with clear presentation of daily calories, macronutrient totals, and detailed meals with portions and timing. The macronutrient distribution reasonably supports endurance training, though carbs are slightly below the 60% ideal. The meal plan is practical and compact as requested. The primary limitation is the caloric target being conservative for the athlete's profile and lack of hydration guidance, but these do not violate the stated criteria. The solution meets all secondary criteria effectively."
+  }
+]
