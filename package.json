@@ -23,11 +23,13 @@
     "readline-promise": "^1.0.5"
   },
   "devDependencies": {
+    "git-cliff": "^2.12.0",
     "release-it": "^20.0.0"
   },
   "release-it": {
     "github": {
-      "release": true
+      "release": true,
+      "releaseNotes": "./scripts/changelog.sh stdout"
     },
     "npm": {
       "publish": false
@@ -36,6 +38,7 @@
       "before:init": [
         "npm ci"
       ],
+      "after:bump": "./scripts/changelog.sh",
       "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
     }
   }
